@@ -35,7 +35,6 @@ import { Routes } from './routes';
 console.log(window.location.host);
 
 export const router = new VueRouter({
-    base: '/irl-data/',
     routes: Routes
 });
 

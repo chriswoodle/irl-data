@@ -20,7 +20,7 @@ export default Vue.extend({});
       font-size: 3em;
   }
   h1, p {
-    color: white;
+    // color: white;
   }
 }
 </style>
