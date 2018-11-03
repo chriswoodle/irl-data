@@ -1,0 +1,36 @@
+@import './reset.scss';
+
+html {
+    box-sizing: border-box;
+    // background: #222222 !important;
+    // background: #ECEDF1 !important; 
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+// Vuikit
+
+// 1. Your custom variables and variable overwrites.
+$global-link-color: #3B86FF;
+
+// 2. Import default variables and available mixins.
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+
+.uk-card, .uk-card-default {
+    background: black !important;
+    color: white  !important; 
+}
+
+.uk-card-default .uk-card-title{
+    color: white  !important; 
+}
+
+// 4. Import UIkit.
+@import "uikit/src/scss/uikit-theme.scss";
