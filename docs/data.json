@@ -38,6 +38,18 @@
             "tags": [
                 "Indian River Lagoon"
             ]
+        },
+        {
+            "title": "Mangrove Habitat in Florida",
+            "description": "This GIS data set represents mangroves in Florida. The data are reselected from land use and land cover data from Florida's water management districts.",
+            "url": "http://geodata.myfwc.com/datasets/a78a27e02f9d4a71a3c3357aefc35baf_4?geometry=-82.185%2C27.9%2C-78.669%2C28.746",
+            "source": "atoll.floridamarine.org",
+            "type": [
+                "living-shorelines"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
         }
     ]
 }
