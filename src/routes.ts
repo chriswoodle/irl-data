@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 
 import PageNotFound from './page-not-found.vue';
 import Dashboard from './dashboard.vue';
+import Search from './search.vue';
+
 import Providers from './providers.vue';
 import Util from './util.vue';
 
@@ -19,6 +21,11 @@ export const Routes: RouteConfig[] = [
                 path: '/',
                 component: Dashboard,
                 name: 'dashboard'
+            },
+            {
+                path: '/search',
+                component: Search,
+                name: 'search'
             }
         ],
     },

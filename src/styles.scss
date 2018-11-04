@@ -15,7 +15,7 @@ html {
 // Vuikit
 
 // 1. Your custom variables and variable overwrites.
-$global-link-color: #3B86FF;
+$global-link-color: #1B4C8C;
 
 // 2. Import default variables and available mixins.
 @import "uikit/src/scss/variables-theme.scss";
@@ -24,12 +24,12 @@ $global-link-color: #3B86FF;
 // 3. Your custom mixin overwrites.
 
 .uk-card, .uk-card-default {
-    background: black !important;
-    color: white  !important; 
+    // background: black !important;
+    // color: white  !important; 
 }
 
 .uk-card-default .uk-card-title{
-    color: white  !important; 
+    // color: white  !important; 
 }
 
 // 4. Import UIkit.

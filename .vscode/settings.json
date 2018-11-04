@@ -1,0 +1,6 @@
+{
+    "editor.detectIndentation": false,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
+    "typescript.preferences.quoteStyle": "single",
+}

@@ -18,7 +18,7 @@ import './styles.scss';
 import Vuikit from 'vuikit';
 // @ts-ignore
 import VuikitIcons from '@vuikit/icons';
-// import '@vuikit/theme';
+import '@vuikit/theme';
 
 Vue.use(Vuikit);
 Vue.use(VuikitIcons);
