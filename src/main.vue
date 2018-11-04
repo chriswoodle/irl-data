@@ -1,13 +1,20 @@
 <template>
     <div class='main'>
         <nav class="uk-navbar uk-navbar-container">
-            <div class="uk-navbar-left">
+             <div class="uk-navbar-left">
                 <ul class="uk-navbar-nav">
                     <router-link tag="li" to="/">
-                        <a>Open Data</a>
+                        <a>IRL Open Data</a>
+                    </router-link>
+                </ul>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <router-link tag="li" to="/about">
+                        <a>About</a>
                     </router-link>
                     <router-link tag="li" to="/search">
-                        <a>Search</a>
+                        <a>Data</a>
                     </router-link>
                 </ul>
             </div>

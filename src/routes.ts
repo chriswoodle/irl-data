@@ -1,12 +1,9 @@
 import { RouteConfig } from 'vue-router';
-import VueRouter from 'vue-router';
 
 import PageNotFound from './page-not-found.vue';
 import Dashboard from './dashboard.vue';
 import Search from './search.vue';
-
-import Providers from './providers.vue';
-import Util from './util.vue';
+import About from './about.vue';
 
 import Main from './main.vue';
 
@@ -26,6 +23,11 @@ export const Routes: RouteConfig[] = [
                 path: '/search',
                 component: Search,
                 name: 'search'
+            },
+            {
+                path: '/about',
+                component: About,
+                name: 'about'
             }
         ],
     },
