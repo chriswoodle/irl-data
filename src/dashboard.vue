@@ -3,7 +3,7 @@
         <div class="uk-cover-container uk-text-center">
             <img src="https://i1.wp.com/www.floridashealthinsurancenetwork.com/wp-content/uploads/2017/07/health-insurance-indian-river.jpg" alt="" uk-cover>
             <vk-card class="uk-position-center uk-width-2-3@m uk-text-left">
-                <h1 class='uk-heading-primary'>Indian River Lagoon Open Data</h1>
+                <h1>Indian River Lagoon Open Data</h1>
                 <h4>To help aid efforts to research and improve the Indian River Lagoon's condition, the IRL Open Data initiative provides an index of datasets involving the IRL and neighboring areas.</h4>
             </vk-card>
         </div>
@@ -25,14 +25,32 @@
                 <vk-grid matched class="uk-child-width-1-2@s">
                     <div>
                         <vk-card type="primary" hover>
-                            <vk-card-title>Datasets</vk-card-title>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div>
+                                <vk-grid gutter="small" class="uk-flex-middle">
+                                    <div class="uk-width-auto">
+                                        <vk-icon-button href="" icon="database"></vk-icon-button>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <vk-card-title class="uk-margin-remove-bottom">Datasets</vk-card-title>
+                                    </div>
+                                </vk-grid>
+                                <p>View data collected by research organizations.</p>
+                            </div>
                         </vk-card>
                     </div>
                     <div>
-                        <vk-card type="primary" hover>
-                            <vk-card-title>Default</vk-card-title>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <vk-card type="primary" hover>
+                            <div>
+                                <vk-grid gutter="small" class="uk-flex-middle">
+                                    <div class="uk-width-auto">
+                                        <vk-icon-button href="" icon="cloud-upload"></vk-icon-button>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <vk-card-title class="uk-margin-remove-bottom">Submit</vk-card-title>
+                                    </div>
+                                </vk-grid>
+                                <p>Add your data to the index.</p>
+                            </div>
                         </vk-card>
                     </div>
                 </vk-grid>

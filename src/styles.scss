@@ -32,5 +32,9 @@ $global-link-color: #1B4C8C;
     // color: white  !important; 
 }
 
+.uk-cover-container {
+    background-color: #eee;
+}
+
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

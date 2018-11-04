@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class='main'>
         <nav class="uk-navbar uk-navbar-container">
             <div class="uk-navbar-left">
                 <ul class="uk-navbar-nav">
@@ -15,27 +15,30 @@
         <!-- <div class="tm-sidebar-left uk-visible">
         </div> -->
 
-        <div class="tm-main">
+        <div class="center-main">
             <div class="section">
                 <router-view :key="$route.fullPath">
                 </router-view>
             </div>
         </div>
-        <div class="uk-section uk-section-secondary uk-light">
-            <div class="uk-container">
-                <div>
-                    <p>© 2018</p>
-                </div>
-                <div>
-                    <p>Built at <b><a href='http://hacktheirl.com/'>HackTheIRL2018</a></b>, Melbourne FL</p>
-                </div>
-                <div>
-                    <a href='https://github.com/chriswoodle/irl-data'>
-                        <vk-icon icon="github"></vk-icon>
-                    </a>
+        <vk-sticky bottom>
+            <div class="uk-section uk-section-secondary uk-light">
+                <div class="uk-container">
+                    <div>
+                        <p>© 2018</p>
+                    </div>
+                    <div>
+                        <p>Built at <b><a href='http://hacktheirl.com/'>HackTheIRL2018</a></b>, Melbourne FL</p>
+                    </div>
+                    <div>
+                        <a href='https://github.com/chriswoodle/irl-data'>
+                            <vk-icon icon="github"></vk-icon>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </vk-sticky>
+
     </div>
 </template>
 
@@ -72,5 +75,14 @@ export default Vue.extend({});
 
   background-color: #ffffff;
   //   border-right: 1px #e5e5e5 solid;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .center-main {
+    flex-grow: 1;
+  }
 }
 </style>

@@ -1,9 +1,15 @@
 <template>
     <div>
-        <h1>Search!</h1>
-        <form class="uk-search uk-search-default">
-            <input class="uk-search-input" type="search" placeholder="Search...">
-        </form>
+        <div class='uk-container'>
+            <div class="uk-section">
+                <h1>Search!</h1>
+                <vue-fuse :keys="keys" :list="bikes" event-name="results" placeholder="Search for bikes"></vue-fuse>
+                <div v-for="bike in results" :key="bike.model.name + bike.model.id">
+                    {{bike}}
+                </div>
+            </div>
+
+        </div>
     </div>
 </template>
 
@@ -11,10 +17,33 @@
 
 import Vue from "vue";
 
+import VueFuse from './components/VueFuse.vue'
+
+import axios from "axios";
+
+const ax = axios.create({
+    //   baseURL: '/data'
+})
+
 export default Vue.extend({
-    components: {},
+    components: {
+        VueFuse
+    },
+    created() {
+        this.$on('results', results => {
+            this.results = results
+        })
+    },
     data: function (this: any) {
+        ax.get('data.json').then(response => {
+            console.log(response);
+            this.bikes = response.data.data;
+        })
+
         return {
+            results: [],
+            bikes: [],
+            keys: ["brand", "model.name", "model.id"]
         };
     }
 });

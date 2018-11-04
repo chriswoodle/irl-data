@@ -28,6 +28,10 @@ import VueAxios from 'vue-axios'
  
 Vue.use(VueAxios, axios)
 
+import VueFuse from 'vue-fuse'
+
+Vue.use(VueFuse)
+
 // App
 
 import { Routes } from './routes';
