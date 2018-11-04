@@ -1,32 +1,43 @@
 {
-    "data": [
+    "catagories": {
+        "habitats": [
+            "seagrasses",
+            "filter-feeders",
+            "living-shorelines",
+            "wetlands",
+            "spoil-islands",
+            "land-conservation",
+            "connected-waters"
+        ],
+        "living-resources": [
+            "biodiversity",
+            "species-of-concern",
+            "exotic-and-invasive",
+            "forage-fishes",
+            "fisheries",
+            "harmful-algal-blooms"
+        ],
+        "healthy-communities": [
+            "climate-ready-estuaries",
+            "trash-free-waters",
+            "marinas-and-boating",
+            "distinctive-lagoon-communities",
+            "21st-century-coastal-communities",
+            "emergency-response"
+        ]
+    },
+    "entries": [
         {
-            "brand": "Schwinn",
-            "model": {
-                "name": "Classic",
-                "id": "1345"
-            }
-        },
-        {
-            "brand": "Red Line",
-            "model": {
-                "name": "Flight",
-                "id": "5430"
-            }
-        },
-        {
-            "brand": "Hoffman",
-            "model": {
-                "name": "Condore",
-                "id": "0543"
-            }
-        },
-        {
-            "brand": "Tribe",
-            "model": {
-                "name": "CRMO",
-                "id": "0432"
-            }
+            "title": "Seagrass Habitat in Florida",
+            "description": "This polygon GIS data set represents a compilation of statewide seagrass data from various source agencies and scales. The data were mapped from sources ranging in date from 1987 to 2016.",
+            "url": "http://geodata.myfwc.com/datasets/4d1b4e758e704def90773bd49806dd4c_6?geometry=-80.903058%2C%2028.993286%2C%20-80.161481%2C27.157698",
+            "source": "atoll.floridamarine.org",
+            "type": [
+                "seagrasses"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
         }
     ]
 }
