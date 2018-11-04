@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="uk-cover-container uk-text-center">
-            <img src="https://i1.wp.com/www.floridashealthinsurancenetwork.com/wp-content/uploads/2017/07/health-insurance-indian-river.jpg" alt="" uk-cover>
+            <img src="https://onelagoon.org/wp-content/uploads/habitat_hero_v2.jpg" alt="" uk-cover>
             <vk-card class="uk-position-center uk-width-2-3@m uk-text-left main-card">
                 <h1>Indian River Lagoon Open Data</h1>
                 <h4>To help aid efforts to research and improve the Indian River Lagoon's condition, the IRL Open Data project provides an index of datasets involving the IRL and neighboring areas.</h4>
