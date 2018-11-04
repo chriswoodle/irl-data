@@ -50,6 +50,153 @@
             "tags": [
                 "Indian River Lagoon"
             ]
+        },
+        {
+            "title": "Historic Harmful Algal Bloom Events 2007 - 2015",
+            "description": "GIS point shapefile of recent sampling locations for the phytoplankton that causes red tide, Karenia brevis. Sampling sites dates of this shapefile cover the calendar years 2007 through 2015. The HAB shapefile is a spatial representation of information gathered in the HAB Historical Database, which provides information on the presence and absence of Karenia brevis.",
+            "url": "http://geodata.myfwc.com/datasets/historic-harmful-algal-bloom-events-2007-2015?geometry=-81.888%2C27.952%2C-78.373%2C28.798",
+            "source": "atoll.floridamarine.org",
+            "type": [
+                "harmful-algal-blooms"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Salt Marshes in Florida",
+            "description": "This GIS data set represents the saltwater marsh areas in Florida. The data are a compilation of available land use and land cover information mapped by Florida's water management districts. The most recent data available as of July 2012 are used; the photography dates are between 1999 and 2010.",
+            "url": "http://geodata.myfwc.com/datasets/20ab7447d9424929bf0e7a2a633d6407_3?geometry=-81.427%2C28.128%2C-79.669%2C28.551",
+            "source": "atoll.floridamarine.org",
+            "type": [
+                "wetlands"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Florida Seagrass: Volusia, 2008",
+            "description": "This topographical map was created by FCIT and shows the seagrass distribution for Volusia County. The green coloration depicts continuous seagrass while the yellow shows discontinuous seagrass. In addition to the seagrass, rivers, towns, and highways are shown. Some of the towns are Daytona, Glencoe, and Deltona. The data used for this map was taken from a 1992 United States Geological Survey (USGS).",
+            "url": "http://fcit.usf.edu/florida/maps/pages/11500/f11530/f11530.htm",
+            "source": "Florida Center for Instructional Technology, Florida Fish and Wildlife Conservation Commission",
+            "type": [
+                "seagrasses"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Florida Seagrass: Brevard, 2008",
+            "description": "This topographical map was created by FCIT and shows the seagrass distribution for Brevard County. The green coloration depicts continuous seagrass while the yellow shows discontinuous seagrass. In addition to the seagrass, rivers, towns, and highways are shown. Some of the towns are Cape Canaveral, Bellwood, and Titusville. The data used for this map was taken from a 1992 United States Geological Survey (USGS).",
+            "url": "http://fcit.usf.edu/florida/maps/pages/11500/f11504/f11504.htm",
+            "source": "Florida Center for Instructional Technology, Florida Fish and Wildlife Conservation Commission",
+            "type": [
+                "seagrasses"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Florida Seagrass: Indian River, 2008",
+            "description": "This topographical map was created by FCIT and shows the seagrass distribution for Indian River County. The green coloration depicts continuous seagrass while the yellow shows discontinuous seagrass. In addition to the seagrass, rivers, towns, and highways are shown. Some of the towns are Orchid, Fellsmere, and Sebastian. The data used for this map was taken from a 1992 United States Geological Survey (USGS).",
+            "url": "http://fcit.usf.edu/florida/maps/pages/11500/f11514/f11514.htm",
+            "source": "Florida Center for Instructional Technology, Florida Fish and Wildlife Conservation Commission",
+            "type": [
+                "seagrasses"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Florida Seagrass: Martin, 2008",
+            "description": "This topographical map was created by FCIT and shows the seagrass distribution for Martin County. The green coloration depicts continuous seagrass while the yellow shows discontinuous seagrass. In addition to the seagrass, rivers, towns, and highways are shown. Some of the towns are Gomez, Palm City, and Stuart. The data used for this map was taken from a 1992 United States Geological Survey (USGS).",
+            "url": "http://fcit.usf.edu/florida/maps/pages/11500/f11519/f11519.htm",
+            "source": "Florida Center for Instructional Technology, Florida Fish and Wildlife Conservation Commission",
+            "type": [
+                "seagrasses"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Florida Seagrass: St. Lucie, 2008",
+            "description": "This topographical map was created by FCIT and shows the seagrass distribution for Saint Lucie County. The green coloration depicts continuous seagrass while the yellow shows discontinuous seagrass. In addition to the seagrass, rivers, towns, and highways are shown. Some of the towns are White City, Indrio, and Ankona. The data used for this map was taken from a 1992 United States Geological Survey (USGS).",
+            "url": "http://fcit.usf.edu/florida/maps/pages/11500/f11528/f11528.htm",
+            "source": "Florida Center for Instructional Technology, Florida Fish and Wildlife Conservation Commission",
+            "type": [
+                "seagrasses"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Indian River Lagoon Aquatic Preserves Spoil Island Project",
+            "description": "Managed by the Florida Department of Environmental Proection (FDEP), the Indian River Lagoon Aquatic Preserve (IRLAP) Office oversees the Spoil Island Project. Through multi-agency cooperation and volunteer events, the IRLAP hosts cleanups, constructs recreational enhancements, removes exotics, and adds native plants to the islands.",
+            "url": "http://spoilislandproject.org/indian-river-county-spoil-islands/",
+            "source": "Indian River Lagoon Aquatic Preserve",
+            "type": [
+                "spoil-islands"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Water Quality Data in the Indian River Lagoon Area",
+            "description": "This data shows the water quality in Volusia, Brevard, Indian River, St. Lucie, and Martin Counties.",
+            "url": "https://www.waterqualitydata.us/portal/#countrycode=US&statecode=US%3A12&countycode=US%3A12%3A009&countycode=US%3A12%3A061&countycode=US%3A12%3A085&countycode=US%3A12%3A111&countycode=US%3A12%3A127&siteType=Estuary&startDateLo=01-01-2013&providers=STORET&mimeType=csv",
+            "source": "https://www.waterqualitydata.us/portal/",
+            "type": [
+                "trash-free-waters"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Manatee Yearly Mortality Summaries",
+            "description": "1974 to 2016 yearly summaries of manatee deaths for the state of Florida.",
+            "url": "http://myfwc.com/research/manatee/rescue-mortality-response/mortality-statistics/yearly/",
+            "source": "MARINE MAMMAL PATHOBIOLOGY LABORATORY",
+            "type": [
+                "species-of-concern"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Indian River Lagoon Species Inventory",
+            "description": "An inventory of numerous species observed within the IRL.",
+            "url": "http://www.sms.si.edu/irlspec/Species%20List%20Database%20Post%20V1.xlsx",
+            "source": "https://www.sms.si.edu/irlspec/index.htm",
+            "type": [
+                "species-of-concern",
+                "exotic-and-invasive",
+                "forage-fish"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
+        },
+        {
+            "title": "Volusia County Fishing docks and piers",
+            "description": "List of fishing docks and piers.",
+            "url": "https://www.volusia.org/services/community-services/parks-recreation-and-culture/parks-and-trails/park-facilities-and-locations/fishing-docks-and-piers/",
+            "source": "https://www.volusia.org/",
+            "type": [
+                "marinas-and-boating",
+                "fisheries"
+            ],
+            "tags": [
+                "Indian River Lagoon"
+            ]
         }
     ]
 }
