@@ -41,19 +41,21 @@
                         </router-link>
                     </div>
                     <div>
-                        <vk-card type="primary" hover>
-                            <div>
-                                <vk-grid gutter="small" class="uk-flex-middle">
-                                    <div class="uk-width-auto">
-                                        <vk-icon-button href="" icon="cloud-upload"></vk-icon-button>
-                                    </div>
-                                    <div class="uk-width-expand">
-                                        <vk-card-title class="uk-margin-remove-bottom">Submit</vk-card-title>
-                                    </div>
-                                </vk-grid>
-                                <p>Add your data to the index.</p>
-                            </div>
-                        </vk-card>
+                        <a href='https://chriswoodle.typeform.com/to/bWcpXQ'>
+                            <vk-card type="primary" hover>
+                                <div>
+                                    <vk-grid gutter="small" class="uk-flex-middle">
+                                        <div class="uk-width-auto">
+                                            <vk-icon-button href="" icon="cloud-upload"></vk-icon-button>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <vk-card-title class="uk-margin-remove-bottom">Submit</vk-card-title>
+                                        </div>
+                                    </vk-grid>
+                                    <p>Add your data to the index.</p>
+                                </div>
+                            </vk-card>
+                        </a>
                     </div>
                 </vk-grid>
 
